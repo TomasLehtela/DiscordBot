@@ -376,7 +376,7 @@ async def get_player(name):
 
 
 @client.command()
-async def porr(ctx, *, cat=None):
+async def gif(ctx, *, cat=None):
     await get_gif(cat)
     embed = discord.Embed()
     file = discord.File("data/gif.gif")
